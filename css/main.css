@@ -2,11 +2,11 @@
   --main-font: "Roboto", sans-serif;
   --secondary-font: "Raleway", sans-serif;
   --accent-color: red;
-  --main-background-color: #ffffff;
-  --main-text-color: #212121;
-  --secondary-text-color: #757575;
-  --nav-link-color: #000000;
-  --footer-background-color: #2f303a;
+  --main-background-color: #000;
+  --main-text-color: #ffff;
+  --secondary-text-color: #fff;
+  --nav-link-color: #fff;
+  --footer-background-color: #000;
   --btn-hover-color: red;
   --adress-link-color: rgba(255, 255, 255, 0.6);
   --aboutus-background-color: #f5f4fa;
@@ -16,7 +16,7 @@
   --header-border: #ececec;
   --button-shadow: rgba(0, 0, 0, 0.15);
   --overlay-whatwedo-bg: rgba(47, 48, 58, 0.8);
-  --footer-link-bg: rgba(255, 255, 255, 0.1);
+  --footer-link-bg: #fff;
   --modal-btn-shadow: rgba(0, 0, 0, 0.25);
   --border-example: #eeeeee;
   --overlay-prtf-bg: red;
@@ -625,7 +625,7 @@ body {
   line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--main-background-color);
+  color: var(--accent-color);
 }
 
 .modal-btn {
@@ -670,7 +670,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .hero {
-    background-image: linear-gradient(var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/bg-deskt.jpg");
+    background-image: linear-gradient(var(--overlay-hero-bg-color), var(--overlay-hero-bg-color)), url("../images/hero/retroville.jpg");
   }
 }
 
@@ -990,7 +990,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--main-background-color);
 }
 
 .logo-container {

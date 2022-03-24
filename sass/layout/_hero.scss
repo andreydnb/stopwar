@@ -27,7 +27,7 @@
   line-height: 1.62;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--main-background-color);
+  color: var(--accent-color);
 }
 
 .modal-btn {
@@ -91,7 +91,7 @@
         var(--overlay-hero-bg-color),
         var(--overlay-hero-bg-color)
       ),
-      url("../images/hero/bg-deskt.jpg");
+      url("../images/hero/retroville.jpg");
   }
 }
 
